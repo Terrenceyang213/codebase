@@ -1,0 +1,19 @@
+Timer unit: 1e-07 s
+
+Total time: 6.59324 s
+File: C:\ProgramData\Anaconda3\lib\site-packages\quantframe\indicator\hurst.py
+Function: run at line 15
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    15                                               def run(self, series, exponent=None):
+    16                                                   '''
+    17                                                   :type series: List
+    18                                                   :type exponent: int
+    19                                                   :rtype: float
+    20                                                   '''
+    21                                                   # try:
+    22                                                   #     return self.calculateHurst(series, exponent)
+    23                                                   # except Exception as e:
+    24                                                   #     print("   Error: %s" % e)
+    25         1   65932398.0 65932398.0    100.0          return self.calculateHurst(series, exponent)

@@ -1,0 +1,106 @@
+         2960 function calls (2658 primitive calls) in 0.025 seconds
+
+   Ordered by: cumulative time
+   List reduced from 109 to 100 due to restriction <100>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.025    0.025 {built-in method builtins.exec}
+        1    0.001    0.001    0.025    0.025 <string>:6(<module>)
+   354/52    0.000    0.000    0.014    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+        1    0.000    0.000    0.013    0.013 <string>:10(<listcomp>)
+       50    0.000    0.000    0.013    0.000 <__array_function__ internals>:2(histogram)
+       50    0.001    0.000    0.013    0.000 histograms.py:677(histogram)
+        1    0.003    0.003    0.010    0.010 <ipython-input-4-74dc45cb4a27>:1(step)
+       50    0.000    0.000    0.010    0.000 <__array_function__ internals>:2(sort)
+       50    0.000    0.000    0.009    0.000 fromnumeric.py:839(sort)
+       50    0.009    0.000    0.009    0.000 {method 'sort' of 'numpy.ndarray' objects}
+        1    0.007    0.007    0.007    0.007 {method 'random_sample' of 'numpy.random.mtrand.RandomState' objects}
+        1    0.000    0.000    0.002    0.002 <__array_function__ internals>:2(cumsum)
+        1    0.000    0.000    0.002    0.002 fromnumeric.py:2418(cumsum)
+        1    0.000    0.000    0.002    0.002 fromnumeric.py:52(_wrapfunc)
+        1    0.002    0.002    0.002    0.002 {method 'cumsum' of 'numpy.ndarray' objects}
+       50    0.000    0.000    0.001    0.000 histograms.py:360(_get_bin_edges)
+       50    0.000    0.000    0.001    0.000 histograms.py:454(_search_sorted_inclusive)
+       50    0.000    0.000    0.001    0.000 <__array_function__ internals>:2(diff)
+       50    0.000    0.000    0.001    0.000 <__array_function__ internals>:2(any)
+       50    0.000    0.000    0.001    0.000 function_base.py:1152(diff)
+       50    0.000    0.000    0.000    0.000 fromnumeric.py:2249(any)
+       50    0.000    0.000    0.000    0.000 {method 'copy' of 'numpy.ndarray' objects}
+       50    0.000    0.000    0.000    0.000 fromnumeric.py:70(_wrapreduction)
+      100    0.000    0.000    0.000    0.000 {method 'searchsorted' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        2    0.000    0.000    0.000    0.000 pydevd_io.py:30(write)
+       50    0.000    0.000    0.000    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+       51    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(concatenate)
+        2    0.000    0.000    0.000    0.000 pydevd_io.py:97(write)
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+       50    0.000    0.000    0.000    0.000 histograms.py:283(_ravel_and_check_weights)
+      100    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(ndim)
+        2    0.000    0.000    0.000    0.000 pydevd_net_command_factory_json.py:288(make_io_message)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(vstack)
+        2    0.000    0.000    0.000    0.000 iostream.py:386(write)
+      150    0.000    0.000    0.000    0.000 _asarray.py:86(asanyarray)
+        1    0.000    0.000    0.000    0.000 shape_base.py:223(vstack)
+        2    0.000    0.000    0.000    0.000 pydevd_net_command.py:51(__init__)
+      250    0.000    0.000    0.000    0.000 {built-in method numpy.array}
+        3    0.000    0.000    0.000    0.000 iostream.py:197(schedule)
+        1    0.000    0.000    0.000    0.000 {method 'read' of '_io.TextIOWrapper' objects}
+      100    0.000    0.000    0.000    0.000 _asarray.py:14(asarray)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(atleast_2d)
+        1    0.000    0.000    0.000    0.000 shape_base.py:82(atleast_2d)
+        3    0.000    0.000    0.000    0.000 socket.py:432(send)
+       50    0.000    0.000    0.000    0.000 {built-in method numpy.zeros}
+        2    0.000    0.000    0.000    0.000 __init__.py:183(dumps)
+        2    0.000    0.000    0.000    0.000 encoder.py:182(encode)
+        2    0.000    0.000    0.000    0.000 pydevd_comm.py:369(add_command)
+        2    0.000    0.000    0.000    0.000 queue.py:115(put)
+        2    0.000    0.000    0.000    0.000 encoder.py:204(iterencode)
+       50    0.000    0.000    0.000    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+       50    0.000    0.000    0.000    0.000 fromnumeric.py:71(<dictcomp>)
+       50    0.000    0.000    0.000    0.000 {built-in method numpy.core._multiarray_umath.normalize_axis_index}
+       65    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+      100    0.000    0.000    0.000    0.000 fromnumeric.py:3075(ndim)
+      101    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.arange}
+        2    0.000    0.000    0.000    0.000 iostream.py:323(_schedule_flush)
+        2    0.000    0.000    0.000    0.000 threading.py:334(notify)
+        2    0.000    0.000    0.000    0.000 pydevd_schema.py:1291(to_dict)
+        3    0.000    0.000    0.000    0.000 threading.py:1104(is_alive)
+        2    0.000    0.000    0.000    0.000 pydevd_schema.py:16741(__init__)
+      100    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+      100    0.000    0.000    0.000    0.000 fromnumeric.py:3071(_ndim_dispatcher)
+        1    0.000    0.000    0.000    0.000 _bootlocale.py:11(getpreferredencoding)
+       51    0.000    0.000    0.000    0.000 multiarray.py:143(concatenate)
+        2    0.000    0.000    0.000    0.000 pydevd_schema.py:16774(to_dict)
+       50    0.000    0.000    0.000    0.000 function_base.py:1148(_diff_dispatcher)
+       50    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+       50    0.000    0.000    0.000    0.000 fromnumeric.py:835(_sort_dispatcher)
+        1    0.000    0.000    0.000    0.000 {built-in method _locale._getdefaultlocale}
+       50    0.000    0.000    0.000    0.000 histograms.py:672(_histogram_dispatcher)
+       50    0.000    0.000    0.000    0.000 fromnumeric.py:2245(_any_dispatcher)
+        1    0.000    0.000    0.000    0.000 shape_base.py:219(_vhstack_dispatcher)
+        3    0.000    0.000    0.000    0.000 threading.py:1062(_wait_for_tstate_lock)
+        2    0.000    0.000    0.000    0.000 iostream.py:310(_is_master_process)
+        2    0.000    0.000    0.000    0.000 pydevd_schema.py:12963(to_dict)
+        2    0.000    0.000    0.000    0.000 pydevd_constants.py:410(__enter__)
+        1    0.000    0.000    0.000    0.000 shape_base.py:208(_arrays_for_stack_dispatcher)
+        7    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        2    0.000    0.000    0.000    0.000 pydevd_schema.py:1274(__init__)
+        2    0.000    0.000    0.000    0.000 pydevd_io.py:90(get_pydb)
+        2    0.000    0.000    0.000    0.000 threading.py:239(__enter__)
+        5    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        3    0.000    0.000    0.000    0.000 iostream.py:93(_event_pipe)
+        2    0.000    0.000    0.000    0.000 pydevd_schema.py:12929(__init__)
+        2    0.000    0.000    0.000    0.000 pydevd_constants.py:413(__exit__)
+        2    0.000    0.000    0.000    0.000 threading.py:242(__exit__)
+        1    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 threading.py:254(_is_owned)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        2    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 queue.py:206(_put)
+        6    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 pydevd_constants.py:834(get_global_debugger)
+        2    0.000    0.000    0.000    0.000 pydevd_constants.py:819(get_protocol)
+        2    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.RLock' objects}
+        5    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        2    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
