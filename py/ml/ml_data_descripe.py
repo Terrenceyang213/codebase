@@ -5,7 +5,7 @@
 #####################################################################################
 from pandas import read_csv 
 from quantframe.sampconf import dataset_root
-filename = filename = dataset_root+"/pima-indians-diabetes.data.csv"
+filename = dataset_root+"/pima-indians-diabetes.data.csv"
 names = ['preg' , 'plas' , 'pres' , 'skin' , 'test' , 'mass' , 'pedi' , 'age' , 'class' ]
 data = read_csv(filename, names=names)
 peek = data.head(20)
