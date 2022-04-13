@@ -7,7 +7,7 @@ from quantframe.sampconf import dataset_root
 filename = filename = dataset_root+"/pima-indians-diabetes.data.csv"
 names = ['preg' , 'plas' , 'pres' , 'skin' , 'test' , 'mass' , 'pedi' , 'age' , 'class' ]
 data = read_csv(filename, names=names)
-data.hist()
+data.hist() # <>
 pyplot.show()
 
 
@@ -18,7 +18,8 @@ from quantframe.sampconf import dataset_root
 filename = filename = dataset_root+"/pima-indians-diabetes.data.csv"
 names = ['preg' , 'plas' , 'pres' , 'skin' , 'test' , 'mass' , 'pedi' , 'age' , 'class' ]
 data = read_csv(filename, names=names)
-data.plot(kind='density' , subplots=True, layout=(3,3), sharex=False)
+data.plot(kind='density' , # <>
+    subplots=True, layout=(3,3), sharex=False)
 pyplot.show()
 
 # %% Box
@@ -28,7 +29,8 @@ from quantframe.sampconf import dataset_root
 filename = filename = dataset_root+"/pima-indians-diabetes.data.csv"
 names = ['preg' , 'plas' , 'pres' , 'skin' , 'test' , 'mass' , 'pedi' , 'age' , 'class' ]
 data = read_csv(filename, names=names)
-data.plot(kind='box' , subplots=True, layout=(3,3), sharex=False, sharey=False)
+data.plot(kind='box' , # <>
+            subplots=True, layout=(3,3), sharex=False, sharey=False)
 pyplot.show()
 
 # %% ml plot:多变量绘图, multivariate plots
@@ -40,9 +42,9 @@ import numpy as np
 filename = dataset_root+"/pima-indians-diabetes.data.csv" 
 names = ['preg' , 'plas' , 'pres' , 'skin' , 'test' , 'mass' , 'pedi' , 'age' , 'class' ]
 data = read_csv(filename, names=names) 
-set_option('display.width' , 100) 
-set_option('precision' , 3)
-correlations = data.corr(method='pearson')
+set_option('display.width' , 100) # <>
+set_option('precision' , 3)         # <>
+correlations = data.corr(method='pearson') # <>
 
 fig = pyplot.figure() 
 ax = fig.add_subplot(111) 
