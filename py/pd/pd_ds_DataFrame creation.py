@@ -218,3 +218,7 @@ pd.DataFrame.from_records(data, index="C")
 # b'Hello'  1  2.0
 # b'World'  2  3.0
 
+
+#%% tags:pandas;pd;create empty dataframe with cols;
+MLA_columns = ['MLA Name', 'MLA Parameters','MLA Train Accuracy Mean', 'MLA Test Accuracy Mean', 'MLA Test Accuracy 3*STD' ,'MLA Time']
+MLA_compare = pd.DataFrame(columns = MLA_columns)
