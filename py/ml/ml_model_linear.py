@@ -18,9 +18,9 @@ Y_test = np.array([5,7,4])
 
 
 reg = linear_model.LinearRegression()
-reg.fit(X_train, # <1> X 行向量，每个样本为行元素，这样做能够与tensorflow保持一致
+reg.fit(X_train,  # <1> X 行向量，每个样本为行元素，这样做能够与tensorflow保持一致
         Y_train,  # <2> 
-        )        # <3> fit
+        )         # <3> fit
 
 print(reg.coef_)
 # [0.5 0.5]
